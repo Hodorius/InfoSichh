@@ -1,3 +1,10 @@
+# Virtuelle Maschine aufsetzen
+> VMWare Workstation Pro 17 über Broadcom-Webseite
+
+> VMWare für macOS freischalten: https://github.com/DrDonk/unlocker
+
+> Maschine mit macOS aufsetzten: https://www.wisecleaner.com/think-tank/413-How-to-Install-a-macOS-in-VMware-Workstation-PRO-17.html
+
 # Hardening-macOS
 
 ## 3.1. Basis-Anforderungen
