@@ -26,4 +26,9 @@ the System Preferences / Security & Privacy / General. This pane has two options
 “Allow applications downloaded from”, as described in Section 3.1. By default, the option to
 limit downloads to “App Store and identified developers” is enabled. To use the strictest
 Gatekeeper controls, select the “App Store” option. These options are shown in Figure 9 below.
-Some Gatekeeper settings can be configured using the commands found in Appendix J.17.
+
+The commands to enable Gatekeeper are:
+
+`spctl --master-enable`
+
+`spctl --enable`
