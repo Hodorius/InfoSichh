@@ -8,9 +8,9 @@ Die in macOS integrierten Schutzmechanismen „System Integrity Protection“ (S
 
 > [Umsetzung SIP](/SIP.md)
 
-> Umsetzung Gatekeeper
+> [Umsetzung Gatekeeper](/Gatekeeper.md)
 
-> Umsetzung Xprotect
+> [Umsetzung Xprotect](/Xprotect)
 
 Gatekeeper DARF NUR die Ausführung signierter Programme
 erlauben, sofern unsignierte Programme nicht zwingend notwendig sind.
