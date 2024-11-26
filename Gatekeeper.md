@@ -7,7 +7,7 @@ entweder über den App Store bezogen oder von Apple signiert wurden (das Program
 Entwickler, der von Apple verifiziert wurde). Die Funktion Gatekeeper muss in dieser Standardkonfiguration
 betrieben werden, solange unsignierte Programme nicht absolut nötig sind.
 
-## Umsetzungshinweise NIST
+## Umsetzungshinweise NIST SP 800-178 Revision 1
 ### 3.2 Gatekeeper
 Gatekeeper was a new feature in OS X 10.8 that essentially enforces high-level application
 whitelisting for installing applications. Already-installed applications are unaffected by
@@ -27,6 +27,7 @@ the System Preferences / Security & Privacy / General. This pane has two options
 limit downloads to “App Store and identified developers” is enabled. To use the strictest
 Gatekeeper controls, select the “App Store” option. These options are shown in Figure 9 below.
 
+Make sure Gatekeeper is enabled to prevent installation of software from unknown sources.
 The commands to enable Gatekeeper are:
 
 `spctl --master-enable`
