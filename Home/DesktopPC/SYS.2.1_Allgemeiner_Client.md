@@ -26,3 +26,21 @@ der Schicht SYS.2 Desktop-Systeme vorhanden, die auf dem vorliegenden Baustein a
 zusätzlich anzuwenden sind. Falls für eingesetzte Clients kein spezifischer Baustein existiert, müssen
 die Anforderungen des vorliegenden Bausteins geeignet für das Zielobjekt konkretisiert und es muss
 eine ergänzende Risikobetrachtung durchgeführt werden.
+
+Sicherheitsempfehlungen für mobile Endgeräte mit festem Betriebssystem, wie Smartphones oder
+Tablets, sind in der Schicht SYS.3 Mobile Devices zu finden. Falls ein Client weitere Schnittstellen zum
+Datenaustausch hat, wie z. B. USB, Bluetooth, LAN oder WLAN, müssen diese gemäß den
+Sicherheitsvorgaben der Institution so abgesichert werden, wie es in den entsprechenden Bausteinen
+beschrieben ist. Hierzu sind Anforderungen beispielsweise in SYS.4.5 Wechseldatenträger oder NET.2.2
+WLAN-Nutzung zu finden.
+
+Regelmäßig sind außerdem die Anforderungen der Bausteine OPS.1.1.3 Patch- und
+Änderungsmanagement und CON.3 Datensicherungskonzept für Clients zu berücksichtigen. Clients sind
+oft durch Schadsoftware gefährdet, daher sind die Anforderungen des Bausteins OPS.1.1.4 Schutz vor
+Schadprogrammen bei Clients besonders relevant.
+
+## 2. Gefährdungslage
+Da IT-Grundschutz-Bausteine nicht auf individuelle Informationsverbünde eingehen können, werden
+zur Darstellung der Gefährdungslage typische Szenarien zugrunde gelegt. Die folgenden spezifischen
+Bedrohungen und Schwachstellen sind für den Baustein SYS.2.1 Allgemeiner Client von besonderer
+Bedeutung.
