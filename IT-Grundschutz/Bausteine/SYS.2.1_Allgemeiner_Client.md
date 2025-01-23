@@ -51,3 +51,22 @@ Bedeutung.
 * 2.5. Installation nicht benötigter Betriebssystemkomponenten und Applikationen
 * 2.6. Abhören von Räumen mittels Mikrofon und Kamera
 * 2.7. Fehlerhafte Administration oder Nutzung von Geräten und Systemen
+
+## 3. Anforderungen
+Im Folgenden sind die spezifischen Anforderungen des Bausteins SYS.2.1 Allgemeiner Client aufgeführt.
+Der oder die Informationssicherheitsbeauftragte (ISB) ist dafür zuständig, dass alle Anforderungen
+gemäß dem festgelegten Sicherheitskonzept erfüllt und überprüft werden. Bei strategischen
+Entscheidungen ist der oder die ISB stets einzubeziehen.
+Im IT-Grundschutz-Kompendium sind darüber hinaus weitere Rollen definiert. Sie sollten besetzt
+werden, insofern dies sinnvoll und angemessen ist.
+
+| Zuständigkeiten         | Rollen                  |
+| ----------------------- | ----------------------- |
+| Grundsätzlich zuständig | IT-Betrieb              |
+| Weitere Zuständigkeiten | Benutzende, Haustechnik |
+
+Genau eine Rolle sollte Grundsätzlich zuständig sein. Darüber hinaus kann es noch Weitere
+Zuständigkeiten geben. Falls eine dieser weiteren Rollen für die Erfüllung einer Anforderung vorrangig
+zuständig ist, dann wird diese Rolle hinter der Überschrift der Anforderung in eckigen Klammern
+aufgeführt. Die Verwendung des Singulars oder Plurals sagt nichts darüber aus, wie viele Personen
+diese Rollen ausfüllen sollen.
