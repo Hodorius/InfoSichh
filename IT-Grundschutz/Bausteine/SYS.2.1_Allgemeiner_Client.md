@@ -70,3 +70,15 @@ Zuständigkeiten geben. Falls eine dieser weiteren Rollen für die Erfüllung ei
 zuständig ist, dann wird diese Rolle hinter der Überschrift der Anforderung in eckigen Klammern
 aufgeführt. Die Verwendung des Singulars oder Plurals sagt nichts darüber aus, wie viele Personen
 diese Rollen ausfüllen sollen.
+
+### 3.1. Basis-Anforderungen
+Die folgenden Anforderungen MÜSSEN für diesen Baustein vorrangig erfüllt werden.
+* SYS.2.1.A1 Sichere Authentisierung von Benutzenden
+* SYS.2.1.A2 ENTFALLEN
+* SYS.2.1.A3 Aktivieren von Autoupdate-Mechanismen
+* SYS.2.1.A4 ENTFALLEN
+* SYS.2.1.A5 ENTFALLEN
+* SYS.2.1.A6 Einsatz von Schutzprogrammen gegen Schadsoftware
+* SYS.2.1.A7 ENTFALLEN
+* SYS.2.1.A8 Absicherung des Bootvorgangs
+* SYS.2.1.A42 Nutzung von Cloud- und Online-Funktionen (Benutzende)
