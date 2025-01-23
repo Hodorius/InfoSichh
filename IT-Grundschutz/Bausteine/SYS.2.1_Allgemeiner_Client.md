@@ -44,7 +44,7 @@ Da IT-Grundschutz-Bausteine nicht auf individuelle Informationsverbünde eingehe
 zur Darstellung der Gefährdungslage typische Szenarien zugrunde gelegt. Die folgenden spezifischen
 Bedrohungen und Schwachstellen sind für den Baustein SYS.2.1 Allgemeiner Client von besonderer
 Bedeutung.
-* 2.1. Schadprogramme (G 0.39)
+* [2.1. Schadprogramme (G 0.39)](../Gefährdungen/G0.39_Schadprogramme)
 * 2.2. Datenverlust durch lokale Datenhaltung
 * 2.3. Hardware-Defekte bei Client-Systemen
 * 2.4. Unberechtigte Nutzung von Clients
