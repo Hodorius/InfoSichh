@@ -23,3 +23,12 @@ Dieser Baustein enthält spezifische Anforderungen, die zum sicheren Betrieb von
 Windows zusätzlich zu den Anforderungen aus dem Baustein SYS.2.1 Allgemeiner Client zu beachten und zu erfüllen sind. Für Anwendungsprogramme, die auf den Windows-Clients verwendet werden, sind die Anforderungen
 der entsprechenden Bausteine zu erfüllen, beispielsweise APP.1.1 Office-Produkte oder APP.1.2 Webbrowser. Beim
 Einsatz in einer Windows-Domäne sind die Anforderungen der entsprechenden Bausteine wie APP.2.2 Active Directory Domain Services zu erfüllen.
+
+## 2. Gefährdungslage
+TODO
+
+## 3. Anforderungen
+TODO
+
+### 3.1 Basis-Anforderungen
+Gleiche Basis-Anforderungen wie der Baustein [SYS2.1 Allgemeiner Client](SYS.2.1_Allgemeiner_Client.md).
