@@ -75,10 +75,10 @@ diese Rollen ausfüllen sollen.
 Die folgenden Anforderungen MÜSSEN für diesen Baustein vorrangig erfüllt werden.
 * [SYS.2.1.A1](SYS.2.1.A1.md) Sichere Authentisierung von Benutzenden
 * SYS.2.1.A2 ENTFALLEN
-* SYS.2.1.A3 Aktivieren von Autoupdate-Mechanismen
+* [SYS.2.1.A3](SYS.2.1.A3.md) Aktivieren von Autoupdate-Mechanismen
 * SYS.2.1.A4 ENTFALLEN
 * SYS.2.1.A5 ENTFALLEN
-* SYS.2.1.A6 Einsatz von Schutzprogrammen gegen Schadsoftware
+* [SYS.2.1.A6](SYS.2.1.A6.md) Einsatz von Schutzprogrammen gegen Schadsoftware
 * SYS.2.1.A7 ENTFALLEN
-* SYS.2.1.A8 Absicherung des Bootvorgangs
-* SYS.2.1.A42 Nutzung von Cloud- und Online-Funktionen (Benutzende)
+* [SYS.2.1.A8](SYS.2.1.A8.md) Absicherung des Bootvorgangs
+* [SYS.2.1.A42](SYS.2.1.A42.md) Nutzung von Cloud- und Online-Funktionen (Benutzende)
