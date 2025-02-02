@@ -6,7 +6,7 @@
 Diese Maßnahme sollte bei jedem System vorgenommen werden.
 
 **Beschreibung:**</br>
-Diese Richtlinie entscheidet, ob Cortana auf dem System erlaubt ist.</br>
+Diese Richtlinieneinstellung gibt an, ob Cortana auf dem Gerät zugelassen ist.</br>
 Die empfohlende Einstellung ist: `Deaktiviert`
 
 **Begründung:**</br>
@@ -14,8 +14,9 @@ Wenn Cortana aktiviert ist, kann die Suchhistory sensible Informationen enthalte
 an Microsoft gesendet.
 
 **Auswirkung:**</br>
-Cortana wird deaktiviert. Benutzer werden weiterhin in der Lage sein Daten auf dem System, sowie im Internet über die 
-Suchfunktion zu finden.
+Wenn Sie diese Einstellung aktivieren oder nicht konfigurieren, wird Cortana auf dem Gerät zugelassen. Wenn Sie die Einstellung deaktivieren, wird Cortana ausgeschaltet.</br>
+Wenn Cortana ausgeschaltet ist, können Benutzer mithilfe der Suchfunktion trotzdem Informationen 
+auf dem Gerät oder im Internet suchen.
 
 **Umsetzung:**</br>
 `gpedit.msc > Computerkonfiguration > Administrative Vorlagen > Windows-Komponenten > Suche > Cortana zulassen > Deaktiviert`
