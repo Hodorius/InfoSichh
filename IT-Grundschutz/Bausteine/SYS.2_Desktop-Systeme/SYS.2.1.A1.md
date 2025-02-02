@@ -3,7 +3,7 @@
 ## Anforderungen
 
 ### A1.a) Um den Client zu nutzen, MÜSSEN sich die Benutzenden gegenüber dem IT-System authentisieren.
-    
+* Cortana auf Sperrbildschirm deaktivieren
   
 ### A1.b) Benutzende MÜSSEN eine Bildschirmsperre verwenden, wenn sie den Client unbeaufsichtigt betreiben.
 Umsetzung durch die Benutzenden auf organisatorischer Ebene. Sensibilisierung bei Belehrungen und/oder Kontrollen.</br></br>
