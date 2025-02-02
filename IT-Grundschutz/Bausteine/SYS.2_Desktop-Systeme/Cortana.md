@@ -26,7 +26,7 @@ Suchfunktion zu finden.
 **Standardeinstellung:**
 Aktiviert. (Cortana ist auf dem System erlaubt.)
 
-**Kreuzreferenz:**
+**Kreuzreferenz:**</br>
 *TODO: Verlinkungen zu BSI-Anforderungen*</br>
-Deinstallierung oder Deaktivierung nicht benötigter Software.</br>
-
+SYS.2.1.A42.a) Nur zwingend notwendige Online-Funktionen.</br>
+SYS.2.1.A42.c) Restriktive Konfiguration bzw. Deaktivierung OS-Funktionen.
