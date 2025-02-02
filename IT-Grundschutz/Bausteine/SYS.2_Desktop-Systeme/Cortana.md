@@ -21,4 +21,12 @@ Suchfunktion zu finden.
 `gpedit.msc > Computerkonfiguration > Administrative Vorlagen > Windows-Komponenten > Suche > Cortana zulassen > Deaktiviert`
 
 **Audit:**
-``
+`regedit > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search : AllowCortana (REG_DWORD) 0`
+
+**Standardeinstellung:**
+Aktiviert. (Cortana ist auf dem System erlaubt.)
+
+**Kreuzreferenz:**
+*TODO: Verlinkungen zu BSI-Anforderungen*</br>
+Deinstallierung oder Deaktivierung nicht benötigter Software.</br>
+
