@@ -21,10 +21,10 @@ auf dem Gerät oder im Internet suchen.
 **Umsetzung:**</br>
 `gpedit.msc > Computerkonfiguration > Administrative Vorlagen > Windows-Komponenten > Suche > Cortana zulassen > Deaktiviert`
 
-**Audit:**
+**Audit:**</br>
 `regedit > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search : AllowCortana (REG_DWORD) 0`
 
-**Standardeinstellung:**
+**Standardeinstellung:**</br>
 Aktiviert. (Cortana ist auf dem System erlaubt.)
 
 **Kreuzreferenz:**</br>
