@@ -99,3 +99,24 @@
 ### General
 #### Battery Information
 ![WIN_20250306_21_48_55_Pro](https://github.com/user-attachments/assets/3323d4ad-1bcd-46b1-95c2-ed9f0bc9c333)
+
+### Secure Boot
+#### Secure Boot Enable
+Enables Secure Boot, where the BIOS authenticates each pre-boot image file by using the certificates in the Secure Boot Policy. 
+By default, Secure Boot is set to Disabled. Set the Secure Boot feature to Enable.
+
+![WIN_20250309_00_38_59_Pro](https://github.com/user-attachments/assets/b3b3a7f4-c174-411d-887b-68dda0a37bdf)
+
+#### Secure Boot Mode
+Configures how the BIOS uses the Secure Boot Policy Objects (PK, KEK, db, or dbx).
+
+Deployed Mode (default): Deployed Mode is the most secure mode. In Deployed Mode, PK must be installed, and the BIOS performs signature verification on programmatic attempts to update policy objects. Deployed Mode restricts the programmatic mode transitions.
+
+Audit Mode: In Audit Mode, PK is not present. BIOS does not authenticate programmatic update to the policy objects and transitions between modes. The BIOS performs a signature verification on pre-boot images and logs the results in the image Execution Information Table but executes the images whether they pass or fail verification. Audit Mode is useful for programmatic determination of a working set of policy objects.
+
+![WIN_20250309_00_45_49_Pro](https://github.com/user-attachments/assets/2e1974dd-43e2-48f3-ad36-b4b69468d164)
+
+#### Expert Key Management
+When Secure Boot policy is set to Standard, the BIOS uses the system manufacturer’s key and certificates to authenticate pre-boot images. When Secure Boot policy is set to Custom, BIOS uses the user-defined key and certificates. By default, the Secure Boot policy is set to Standard. So the "Enable Custom Mode" sould be unchecked.
+
+![WIN_20250309_00_57_12_Pro](https://github.com/user-attachments/assets/fc11d20c-8ce9-4062-9d05-d3502e0a67fd)
