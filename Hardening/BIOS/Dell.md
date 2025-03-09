@@ -110,7 +110,6 @@ By default the "Enable USB Boot Support" is checked. For security reasons it is 
 #### TMP 2.0 Security
 ![WIN_20250309_20_53_21_Pro](https://github.com/user-attachments/assets/e49c1504-4a6a-45e3-93a4-db6cc83249be)
 
-
 ### Secure Boot
 #### Secure Boot Enable
 Enables Secure Boot, where the BIOS authenticates each pre-boot image file by using the certificates in the Secure Boot Policy. 
