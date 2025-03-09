@@ -100,6 +100,17 @@
 #### Battery Information
 ![WIN_20250306_21_48_55_Pro](https://github.com/user-attachments/assets/3323d4ad-1bcd-46b1-95c2-ed9f0bc9c333)
 
+### System Configuration
+#### USB Configuration
+By default the "Enable USB Boot Support" is checked. For security reasons it is recommended to uncheck this temporarily. If it's needed to boot e.g. a live image or an installer from an USB-Stick, this option must be actived at first for the time of use. After that this option should deactived again.
+
+![WIN_20250309_21_12_27_Pro](https://github.com/user-attachments/assets/ac921989-55c0-449b-ba79-42e6cc79dfb2)
+
+### Security
+#### TMP 2.0 Security
+![WIN_20250309_20_53_21_Pro](https://github.com/user-attachments/assets/e49c1504-4a6a-45e3-93a4-db6cc83249be)
+
+
 ### Secure Boot
 #### Secure Boot Enable
 Enables Secure Boot, where the BIOS authenticates each pre-boot image file by using the certificates in the Secure Boot Policy. 
