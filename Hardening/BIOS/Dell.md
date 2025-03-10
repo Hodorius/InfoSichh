@@ -1,4 +1,4 @@
-![WIN_20250310_21_33_01_Pro](https://github.com/user-attachments/assets/3c60b345-5d55-483b-88af-79303af138df)# Hardening Dell BIOS
+# Hardening Dell BIOS
 ## Dell Latitude 7490
 ### BIOS Overview
 * General
@@ -25,7 +25,7 @@
 * Video
   * LCD Brightness
 * [Security](#security)
-  * Admin Password
+  * [Admin Password](#admin-password)
   * System Password
   * Strong Password
   * Password Configuration
