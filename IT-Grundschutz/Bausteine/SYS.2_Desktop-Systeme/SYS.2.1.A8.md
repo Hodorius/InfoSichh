@@ -1,9 +1,11 @@
 # SYS.2.1.A8 Absicherung des Bootvorgangs
-* **Der Startvorgang des IT-Systems („Booten“) MUSS gegen Manipulation abgesichert werden.**<br>
+* **Der Startvorgang des IT-Systems („Booten“) MUSS gegen Manipulation abgesichert werden.** <br>
 Umsetzung: Um den Bootvorgang kryptographisch abzusichern, sollten bei Systemen mit UEFI-Firmware die Option SecureBoot aktiviert werden.<br>
 [Dell Latitude 7490](https://github.com/Hodorius/InfoSichh/blob/main/Hardening/BIOS/Dell.md#secure-boot)
 
-* Es MUSS festgelegt werden, von welchen Medien gebootet werden darf.
+* **Es MUSS festgelegt werden, von welchen Medien gebootet werden darf.** <br>
+Umsetzung: Bei einem Standalone-Rechner ist eine Möglichkeit das Booten von einer USB-Schnittstelle komplett zu verbieten. Muss trotzem davon gebootet werden z.B. wenn der Rechner neuaufgesetzt werden muss, kann ein Administrator durch Eingabe des Boot-Passworts die Einstellung temporär ändern. Nach der Arbeit sollte das Booten von einer USB-Schnittstelle wieder deaktiviert werden. <br>
+[Dell Latitude 7490](https://github.com/Hodorius/InfoSichh/blob/main/Hardening/BIOS/Dell.md#usb-configuration)
 
 * Es SOLLTE entschieden werden, ob und wie der Bootvorgang kryptografisch geschützt werden soll.
 
