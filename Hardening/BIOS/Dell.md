@@ -1,4 +1,4 @@
-# Hardening Dell BIOS
+![WIN_20250310_21_33_01_Pro](https://github.com/user-attachments/assets/3c60b345-5d55-483b-88af-79303af138df)# Hardening Dell BIOS
 ## Dell Latitude 7490
 ### BIOS Overview
 * General
@@ -24,7 +24,7 @@
   * Miscellaneous Drives
 * Video
   * LCD Brightness
-* Security
+* [Security](#security)
   * Admin Password
   * System Password
   * Strong Password
@@ -107,6 +107,11 @@ By default the "Enable USB Boot Support" is checked. For security reasons it is 
 ![WIN_20250309_21_12_27_Pro](https://github.com/user-attachments/assets/ac921989-55c0-449b-ba79-42e6cc79dfb2)
 
 ### Security
+#### Admin Password
+The admin password needs to be enter when the UEFI setup is opened, to do changes on the configurations. By default, no admin password is set. Set a password that matches the company password policies.
+
+![WIN_20250310_21_33_01_Pro](https://github.com/user-attachments/assets/5de30213-18d2-49a3-98f1-ceb20896ab85)
+
 #### TMP 2.0 Security
 ![WIN_20250309_20_53_21_Pro](https://github.com/user-attachments/assets/e49c1504-4a6a-45e3-93a4-db6cc83249be)
 
