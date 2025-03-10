@@ -1,7 +1,7 @@
 # SYS.2.1.A8 Absicherung des Bootvorgangs
 * **Der Startvorgang des IT-Systems („Booten“) MUSS gegen Manipulation abgesichert werden.**<br>
 Umsetzung: Um den Bootvorgang kryptographisch abzusichern, sollten bei Systemen mit UEFI-Firmware die Option SecureBoot aktiviert werden.<br>
-[Dell Latitude 7490](/InfoSichh/blob/main/Hardening/BIOS/Dell.md#secure-boot)
+[Dell Latitude 7490](https://github.com/Hodorius/InfoSichh/blob/main/Hardening/BIOS/Dell.md#secure-boot)
 
 * Es MUSS festgelegt werden, von welchen Medien gebootet werden darf.
 
