@@ -13,6 +13,8 @@ Umsetzung: Bei einem Standalone-Rechner ist eine Möglichkeit das Booten von ein
 
 * NUR Administrierende DÜRFEN von wechselbaren oder externen Speichermedien booten können.
 
-* Die Konfigurationseinstellungen des Bootvorgangs DÜRFEN NUR durch Administrierende verändert werden können.
+* **Die Konfigurationseinstellungen des Bootvorgangs DÜRFEN NUR durch Administrierende verändert werden können.** <br>
+Umsetzung: Der Zugriff auf die Konfigurationsoberfläche der Firmware sollte mindestens mit Passwort gesichert sein. <br>
+[Dell Latitude 7490](https://github.com/Hodorius/InfoSichh/blob/main/Hardening/BIOS/Dell.md#admin-password)
 
 * Alle nicht benötigten Funktionen in der Firmware des Client-Systems MÜSSEN deaktiviert werden.
