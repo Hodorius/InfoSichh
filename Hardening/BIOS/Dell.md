@@ -1,9 +1,9 @@
 # Hardening Dell BIOS
 ## Dell Latitude 7490
 ### BIOS Overview
-* General
+* [General](#general)
   * System Information
-  * Battery Information
+  * [Battery Information](#battery-information)
   * Boot Sequence
   * Advanced Boot Options
   * UEFI Boot Path Security
@@ -13,7 +13,7 @@
   * SATA Operation
   * Drives
   * SMART Reporting
-  * USB Configuration
+  * [USB Configuration](#usb-configuration)
   * Dell Type-C Dock Configuration
   * [USB PowerShare](#usb-powershare)
   * Audio
@@ -82,16 +82,16 @@
   * Virtualization
   * VT for Direct I/O
   * Trusted Execution
-* Wireless
-  * Wireless Switch
-  * Wireless Device Enable
+* [Wireless](#wireless)
+  * [Wireless Switch](#wireless-switch)
+  * [Wireless Device Enable](#wireless-device-enable)
 * Maintenance
   * Service Tag
   * Asset Tag
   * BIOS Downgrade
   * Data Wipe
   * BIOS Recovery
-* System Logs
+* [System Logs](#system-logs)
   * BIOS Events
   * Thermal Events
   * Power Events
@@ -149,3 +149,16 @@ Audit Mode: In Audit Mode, PK is not present. BIOS does not authenticate program
 When Secure Boot policy is set to Standard, the BIOS uses the system manufacturer’s key and certificates to authenticate pre-boot images. When Secure Boot policy is set to Custom, BIOS uses the user-defined key and certificates. By default, the Secure Boot policy is set to Standard. So the "Enable Custom Mode" sould be unchecked.
 
 ![WIN_20250309_00_57_12_Pro](https://github.com/user-attachments/assets/fc11d20c-8ce9-4062-9d05-d3502e0a67fd)
+
+### Wireless
+#### Wireless Switch
+Look at "Wireless Device Enable". 
+
+#### Wireless Device Enable
+Only check the services you will definitely use. In this case the Dell Laptop can support a sim card for internet over the mobile cell phone towers but no sim card is used so uncheck the Wireless Wide Area Network (WWAN) and the GPS. Especially the GPS should be looked very sceptical. For security reasons it should be deaktived but it will influence the user experiance because some function of the OS e.g. weather or local activitys won't work.
+Bluetooth is used for a mouse and bluetooth head phones. Otherwise deactivate it.
+
+![WIN_20250323_23_45_45_Pro](https://github.com/user-attachments/assets/2cbce1d3-10be-4bff-a9fa-e22c758cae30)
+
+### System Logs
+There is nothing to configure, only informations.
