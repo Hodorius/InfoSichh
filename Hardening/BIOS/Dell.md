@@ -8,14 +8,14 @@
   * Advanced Boot Options
   * UEFI Boot Path Security
   * Date/Time
-* System Configuration
+* [System Configuration](#system-configuration)
   * Integrated NIC
   * SATA Operation
   * Drives
   * SMART Reporting
   * USB Configuration
   * Dell Type-C Dock Configuration
-  * USB PowerShare
+  * [USB PowerShare](#usb-powershare)
   * Audio
   * Keyboard Illumination
   * Keyboard Backlight Timeout on AC
@@ -105,6 +105,12 @@
 By default the "Enable USB Boot Support" is checked. For security reasons it is recommended to uncheck this temporarily. If it's needed to boot e.g. a live image or an installer from an USB-Stick, this option must be actived at first for the time of use. After that this option should deactived again.
 
 ![WIN_20250309_21_12_27_Pro](https://github.com/user-attachments/assets/ac921989-55c0-449b-ba79-42e6cc79dfb2)
+
+#### USB PowerShare
+Even it is only to charge up e.g. your phone over the usb when the system is in sleep mode, deactive useless firmware functions. If you whant to power up a device just use the normal power outlet.
+
+![grafik](https://github.com/user-attachments/assets/6fff036b-18de-4115-a844-4b4817276b1b)
+
 
 ### Security
 #### Admin Password
