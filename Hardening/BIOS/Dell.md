@@ -26,7 +26,7 @@
   * LCD Brightness
 * [Security](#security)
   * [Admin Password](#admin-password)
-  * System Password
+  * [System Password](#system-password)
   * Strong Password
   * Password Configuration
   * Password Bypass
@@ -111,6 +111,14 @@ By default the "Enable USB Boot Support" is checked. For security reasons it is 
 The admin password needs to be enter when the UEFI setup is opened, to do changes on the configurations. By default, no admin password is set. Set a password that matches the company password policies.
 
 ![WIN_20250310_21_33_01_Pro](https://github.com/user-attachments/assets/5de30213-18d2-49a3-98f1-ceb20896ab85)
+
+#### System Password
+Everytime the system boots, a password must be entered.
+
+![WIN_20250323_22_11_37_Pro](https://github.com/user-attachments/assets/578796ec-d1d0-471e-8223-1e18b86cd58e)
+![grafik](https://github.com/user-attachments/assets/f9999196-2b81-400d-b1ea-cbcb7ae8e938)
+
+
 
 #### TMP 2.0 Security
 ![WIN_20250309_20_53_21_Pro](https://github.com/user-attachments/assets/e49c1504-4a6a-45e3-93a4-db6cc83249be)
