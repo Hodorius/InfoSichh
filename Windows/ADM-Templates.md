@@ -14,7 +14,9 @@ https://www.infrastrukturhelden.de/microsoft-infrastruktur/active-directory/grup
 
 Microsoft Learn: https://learn.microsoft.com/en-us/troubleshoot/windows-client/group-policy/create-and-manage-central-store
 
-## ADMX- und ADML-Dateien
+## ADMX- und ADML-Dateien Updaten
+https://woshub.com/install-update-group-policy-administrative-templates-admx/
+
 Das Folgende bezieht sich auf die **Konfiguration von Standalone Systemen**.
 
 Bevor Gruppenrichtlinien über gpedit.msc richtig konfiguriert werden können, müssen die aktuellen ADMX- und ADML-Dateien eingespielt werden.
