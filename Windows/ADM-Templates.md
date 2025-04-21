@@ -31,3 +31,13 @@ Auf der Microsoft-Webseite unter Suchen nach "ADMX Windows 11 23H2" suchen:
 ![image](https://github.com/user-attachments/assets/a3795e37-b256-48da-8f30-94c6dcd5b826)
 
 Alternativ sind die jeweiligen Links zu den aktuellen ADMX-Versionen in dem Microsoft Learn Artikel (siehe oben) zu finden.
+
+Nach dem Download die .msi Datei ausführen und dem Installations-Wizard folgen.<br>
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/b9bb7ee1-e61f-4582-a550-be93eaf063ca" />
+
+
+
+
+
+
+
